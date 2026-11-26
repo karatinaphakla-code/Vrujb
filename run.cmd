@@ -16,7 +16,7 @@
 ::
 :: Ngrok and AppVeyor are trademarks owned by their respective company.
 @echo off
-set AUTHTOKEN=place_authtoken_here
+set AUTHTOKEN=3Mep21MOY7oAVzLKYQjHku0KkpH_2sQgpfXbMKG2ELC6JGBj
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
 net user appveyor P@ssw0rd!
